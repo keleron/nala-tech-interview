@@ -30,3 +30,7 @@ Con respeto al proceso de entrevista, quisiera indicar que esta prueba tecnica e
 3. `eslint`, `stylelint`, `prettier`, se encargan de todo lo que es manejar buenas practicas y estilo del codigo
 4. Utiliza `vitest` como entorno de ejecucion de test, realmente si me pusiera a hacer test en el frontend no terminaria nunca con esta prueba tecnica, con todo respeto. `vitest` es una alternativa (al menos en mi experiencia) mas estable que `jest`.
 5. La interfaz creo que es bastante sencilla e intuitiva, si no la explico y se entiende fue que el proyecto de parte de front fue un exito, pero principalmente un usuario admin tiene acceso para editar y crear empleados y modificar sus ausencias.
+
+## Deployment
+
+Podria deployearse facilmente en Heroku.com o en Render.com, probablemente lo unico que habria que setear en el `run script` sea correr las migraciones. Probablemente github action puede encargarse del pipeline de correr los test antes de cada merge, etc. Hay mucho que hacer, pero valoro el tiempo de todos.

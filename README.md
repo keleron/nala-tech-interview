@@ -4,8 +4,9 @@
 
 Con respeto al proceso de entrevista, quisiera indicar que esta prueba tecnica es considerablemente extensa y que se deja un prototipo que cumple con todo lo solicitado, sin embargo no lo hace extensivamente, solo lo suficiente para demostrar que se como hacerlo y en donde hacerlo. Este trabajo aproximadamente costo 2-3 dias laborales, cualquier duda, contactar y preguntar.
 
-- backend: Ruby on rails `rails db:reset && rails s` (admin:password)
+- backend: Ruby on rails `rails db:reset && rails s` (admin:pass)
 - client: Vite + React `pnpm install && pnpm dev`, `pnpm` puede activarse facil con `corepack enable pnpm`
+- Ambos deberian correr en el puerto 3000 y 5173 respectivamente para que las reglas de CORS funcionen correctamente
 
 ## Backend
 
